@@ -1,0 +1,68 @@
+.containerOne {
+    display: flex;
+    justify-content: flex-end;
+    max-width: auto;
+    height: 100vh;
+    background-image: url('../images/cinema.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titleOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin-right: 200px;
+}
+
+.titleOne h1 {
+    font-size: 100px;
+    color: #fff;
+}
+
+.titleOne a {
+    color: rgb(108, 165, 240);
+    font-size: 20px;
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+
+.titleOne a:hover {
+    transition: 0.3s ease-in;
+    color: rgb(33, 122, 240);
+}
+  
+  .movies-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 850px;
+    height: 100vh;
+    margin: 0 auto;
+    margin-right: 100px;
+  } 
+
+  .movie {
+      margin: 30px;
+  }
+
+  .movie img {
+      width: 150px;
+      height: 205px;
+  }
+
+  .movie h3 {
+      font-size: 12px;
+  }
+
+  .backImg {
+    background-image: url('../images/showtime.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+  }
